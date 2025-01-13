@@ -1,0 +1,2929 @@
+Java with Selenium 
+Join Zoom Meeting
+https://us06web.zoom.us/j/88055061712
+
+Meeting ID: 880 5506 1712
+Passcode: 995131
+
+contact@grotechminds.com
++91 8009 900 785
+
+stbymkt@gmail.com
+
+
+Class-1
+Client-who makes request - Zoom application(as I have given request using zoom app)
+Server- who gives the response - Zoom production server (As I got response from zoom production server)
+
+
+Class 2 
+
+Eclipse oxygen - editor tool / ide
+Extensions 
+.exe
+.rar
+.apk,etc.
+
+files with extensions are build
+
+Build
+
+Code
+written by developer
+Used by Developer
+
+Build
+Developer converts code to build to compress it and check the Compile time error
+Used by Tester
+
+Software
+Install the build to convert it to software
+Used by customer
+
+
+Project - University
+Package - College
+Class - Classes
+
+Projects - any number of projects
+Package - any number of projects
+Class- any number of projects
+
+Projects - 
+Package - under project-lower case
+Class- under package
+
+Uppercase- ROHIT
+Lowercase-rohit
+camelCase-rohitJoshi
+
+class -it is where u write program
+
+
+Tokens - These are smallest units of any program
+is like human body and its the java body 
+ types of tokens
+Identifiers- It is the name given to class name
+Rules for identifier
+1) Always start with Capital letter ex- Addition
+2) It can be alphanumeric ex- Add123
+3) It can have _ but no other special character ex- Find_salary
+4) It can not start with numeric
+5) If it has 2 words then write in this way RohitJoshi
+
+Class-3
+
+Keywords- These are the reserved words which has it own meaning , keywords can never be the identifier , in Java
+we have almost 50 keywords
+ex- abstract , assert, boolean, break, byte, case, char, etc.
+Every Java keywords will be pink in color-for knowledge
+all java keywords will be in lowercase
+
+Literals - These are the values used in the program
+seperators- Seperators are used in Java to separate the code from each other 
+some of the seperators in Java are 
+;-semi column
+,-comma
+[]-brackets
+()-paranthesis
+{}-braces
+
+comments- If u dont want any line of code to be executed by Java u can comment it 
+comment is not deleting it only means ignoring
+These are of two type 
+Single line comments- used for single line
+Multi line comments- used for multiple lines 
+
+syntax- /* int num =1;
+int numss =2;
+*/
+
+operators- A+B
+here + is the operator 
+A and B are operands
+these are symbols in Java which can perform operations in java
++,-,*,=,==,/,<,>,<=,>=,!=,&&,||,!,%,etc.
+%= modulus operator
+"="= assignment operator
+"=="= equals operator
+(IK LS CO)- shortcut to remember
+
+
+
+Every body needs a heart
+same every Java class needs a main method
+
+
+
+Java is a case sensitive language
+SQL is not case sensitive language
+In Java everything will be line by line execution
+
+Class-4
+
+How Java Internally works
+We write code in human understandable language then it will go through two stages 
+first compilation that checks for compile time error that it will check for syntax rules then it will translate the .java file into .class file it is also known as intermediate class which is neither understandable by human nor by the operating system
+
+then interpretation that checks for runtime error , runtime error often leads to exception, it reads line by line and it will translate the .class file into binary and execute
+in interpretation there are 4 components
+JDK-Java Development kit - it has the library files which is required to run the program
+JRE-Java runtime environment- It provides the environment for ur java to go and run the program
+JVM-Java Virtual machine- It is something which is not physically present but present virtually it is responsible for execution of ur program
+starting from main method
+JIT- Just in Time- this is responsible for converting .class file into binary
+
+at last gives binary as output
+
+Java is a platform independent programming language
+ public static void main(String [] args){
+
+}
+public is access specifier 
+And there are 4 access specifier
+public 
+private
+protected 
+package/default
+
+static- modifier
+there are 2 types of modifier
+static
+non static
+
+void - Return type
+byte
+short
+int
+long
+float
+double
+char
+String
+boolean
+void
+
+main - main method name
+
+String[] args- parameter
+
+can u change ur main method at all?
+NO
+
+
+Class -5
+
+How to use 
+if want program 
+public-we can write it
+private-we can write it
+protected--we can write it
+package/default - dont have to write it
+
+
+static -we can write it
+non-static- dont have to write it
+
+parameters
+add()- non-parametrized
+add(int a)-parametrized
+
+
+create multiple methods
+1 static methods
+
+public static void add(){
+
+}-valid method
+
+static void sub(){
+
+}-valid method
+
+private void multiply(){
+
+}-valid method
+
+protected static String name(){
+
+}-valid method
+
+static void addition(int a, int b){
+
+}-valid method
+
+void boolean(String name){
+
+} - not a valid method as using 2 return types
+
+boolean Dinner(String name){
+
+}-valid method
+
+
+How to call a static method inside a main method ?
+package basicprograms;
+
+public class How_to_call_staticmethod {
+	
+	static void addition() {
+		System.out.println("I am your addition method");
+	}
+	
+	static void subtraction() {
+		System.out.println("I am your subtraction method");
+	}
+	
+	static void multiply() {
+		System.out.println("I am your multiplication method");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("I am your main method");
+		addition();
+		subtraction();
+		multiply();
+	}
+
+}
+
+
+Data type and Variables
+Every data should have datatype in java
+
+Data types
+byte- number -74
+short-number - 5423
+int-number   - 
+long-number  -
+float-decimal- 
+double-decimal-
+char-character  - A,s,S
+boolean-true or false - true or false
+String- anything ex- name,address,city,etc. - Rohit
+
+
+We have a formula to calculate the range of each datatype
+
+-2 ki power r to 2 ki power n-1 -1
+n -is size in bits
+
+
+1TB-1024gb
+1GB-1024mb
+1MB-1024kb
+1KB-1024byte
+1byte-8bits
+
+
+      byte     bits
+byte  1          8
+short 2          16
+int   4          32
+long  8          64
+
+
+lets calculate range for byte
+n=8
+so range will be 
+-128 to 127
+
+range for short
+-32768 to 32767
+
+
+Class 6
+
+Datatypes and Variables
+
+variable is a container holding the value
+
+datatype variable = value;
+byte a=90;
+byte is datatype
+a is variable
+= is assignment operator
+90 is value
+
+variable can be alphabet
+alphanumeric
+any word
+can have _ in between
+
+byte age=90;
+byte age_1=91;
+
+byte a=90;//declaration and initialization of variable a with value 90
+short b=32000;
+int c= 8292922;
+long d=232323223;
+float e=3.13f;
+double a1=90.123;
+char a2= 'S';
+boolean a3= true;
+boolean a4= false;
+String name ="Test";
+
+String is a predefined class
+
+How to update the value of local variable 
+
+byte age;//decleration
+age=19; //initialization
+age=20; // update
+sysout(age);
+now age will be 20 as updated to 20
+
+String name ="Test";
+		name ="Rohit";
+		System.out.println(name);
+name will be updated to Rohit
+
+Operators
+these are symbols in Java which can perform operations in java 
+Arithmetic operators"
++ - * % /
+
+
+
+How to access non-static method
+we can define non static method anywhere inside or outside main class
+
+by creating an object with the help of its reference variable
+
+Syntax of creating an object
+
+Classname variable = new Classname();
+
+Is it possible to have static and non-static methods present in same class
+Yes
+
+
+Class 7
+
+Method overloading
+Creating multiple methods with same name but variation in the argument list is known as method overloading 
+In java we can overload both static as well as non-static methods
+It means repeating method in java is not possible
+void add(){
+
+}
+
+void add(){
+
+}
+
+What do you mean by variation in the argument list
+Variation in argument list means
+1 Number of argument
+2 Order of occurrence of argument
+3 Different types of argument
+
+void add(int a, double b, char c){
+
+}
+
+void add(int a){
+}
+
+ex- in amazon we can login with email as well as mobile number
+
+void login(String email_id){
+
+}
+
+void login(long mobile_number){
+}
+
+
+Constructors
+These are the special types of methods in Java which does not have a return type
+Constructors are always non-static
+They will always have the same name as class name
+constructors it can have any Access specifier
+
+public class Amazon{
+ 
+Amazon(){
+
+}// this is the constructor
+
+public static void main(String[] args){
+
+}
+
+}
+
+How to call a constructor
+It gets call automatically when u create an object
+
+
+Syntax of creating an object
+
+classname refrerence_variable = new classname();
+or
+new classname();
+
+There are two types of constructors
+Parameterized constructor
+Non-parameterized constructor
+
+Constructor overloading
+Creating multiple constructors but variation in the argument list is known as constructor overloading
+Variation in argument list means
+1 Number of argument
+2 Order of occurrence of argument
+3 Different types of argument
+
+
+Class 8
+Types of variables
+3 types of variables
+Local variable 
+Global variable
+Final variable
+
+Local variable
+Any variable that is declared inside any method is known as local variable
+Scope of local variable is only within the method
+modifiers- local variables can not be distinguished between static and non-staic
+default value- They do not have any default value
+local variable can never be utilized without initialization
+how to define - 
+int age = 90;
+or
+int age;//declaration
+age =90;//initialization
+
+
+
+
+Global variable
+Any variable that is declared outside any method but inside the class is known as Global variable
+Scope of global variable is from the start of class till the end of class
+modifiers - they can be distinguish between static and non-static
+default value- They have a default value 
+ex- 0 for byte,short,int,long
+0.0 for double and float
+false fir Boolean datatypes
+null for String datatype
+not defined for char datatype
+global variable can be utilized without initialization
+how to define - 
+double pi;
+or 
+double pi=3,14;
+but you can not write as 
+double pi;
+pi=3.14;
+
+
+
+How to update value for global variable
+if it is static then in main method simple change the value
+
+	public static void main(String[] args) {
+		pi=5;
+		System.out.println(pi);
+          }
+
+if it is non static then create the object then through reference variable update the non staic global variable
+public static void main(String[] args) {
+		Global_variable g1 = new Global_variable();
+		g1.number_of_days_leap_year=90;
+		System.out.println(g1.number_of_days_leap_year);
+		
+	}
+
+
+Final variable
+Any variable which is final can never change its value
+
+It can be used for local and global variable also
+
+
+
+Class 9
+looping in Java
+For loop
+syntax 
+for(initialization and declaration; Condition; Increment/Decrement){
+
+ logic;
+ 
+}
+
+for loop only works when condition is true
+
+Conditional/Comparison Operator
+"<,>,>=,<=,==,!="
+
+Increment Operator i++
+Decrement Operator i--
+
+ex1-
+for(i=1;i<2;i++){
+ system.out.println("Hello");
+}
+
+Condition: 1<2 true
+Output:Hello
+
+
+Conditional Statements
+there are 4 types
+1 If block
+2 If Else block
+3 If Else If block
+4 Nested If Else block
+
+syntax of if block
+if(condition){
+
+logic;
+
+}
+condition-true or false
+only when condition true if block will execute
+
+
+
+Class 10
+If block
+
+if else if block
+In case of Ifelse if block whichever condition is true first that will execute
+
+Nested if else
+syntax
+
+if(c1){
+
+if(c2){
+
+}
+else{
+}
+
+}
+
+}
+
+else{
+}
+ IN nested if else block any type of conditional statement can be present in if or else
+
+case 1 - If c1 is true parent else will never execute 
+
+
+Assignement - 1 Check if age >=18 if yes can vote else can not vote
+2 Gender 
+char gender1='Male'
+char gender2='Female'
+
+if('Female'){
+travelling is free
+}
+else
+{
+if less than 12 or equals to 12 -half ticket
+else if more than 12 till 59 -full ticket
+else more than 60 -senior citizen ticket
+}
+
+
+Logical Operators
+and  &&
+or   ||
+not   !
+
+Table for And
+
+c1      c2    output
+True    True   True
+False   True   False
+False   False  False 
+True    False  False
+
+
+Table for OR
+
+c1      c2    output
+True    True   True
+False   True   True
+False   False  False 
+True    False  True
+
+Table for Not
+
+condition  output   
+True       False 
+False      True   
+
+AO "+,-,*,/,%"
+CO ">,<,==,<=,>=,!="
+LO  "&&,||,!"
+
+Class 11
+
+Scanner class in Java
+Scanner class in Java is used to take human input at the run time
+Scanner class is present under java util package
+
+
+Compile time - We assign the values of our variable before running the program
+Run time  - We assign the values of our variable after running the program
+
+//System.in -to take the value at run time
+//System.out- to print the value
+
+Scanner class methods
+next()- is to accept String value at the runtime
+nextbyte()- is to accept byte value at runtime
+nextshort()- is to accept short value at runtime
+nextint()- is to accept int value at runtime
+nextlong()- is to accept long value at runtime
+nextfloat()- is to accept float value at runtime
+nextdouble()- is to accept double value at runtime
+nextboolean()- is to accept boolean value at runtime
+
+How to initialize the value of each method under scanner class
+
+
+Class 12
+How to get run time exception
+When user input the mismatch value of variable from the datatype of variable then it gives value mismatch exception at the runtime
+
+Solve problem using scanner class
+
+calculate area of triangle
+calculate area of rectangle
+calculate circumference of circle
+calculate circumference of rectangle
+calculate circumference of triangle
+calculate area of trapezium
+
+ 
+Math Class
+Math class is present in java.lang package
+anything which is present in java.lang package we not need to import it
+Math class only have static methods in it
+if you want to access static method of a class use below way:
+Classname.method()
+Math.random()-gives you unique value between 0 and 1 and its answer will be in double
+
+
+
+Class 13
+
+Inheritance in Java
+Inherirting the properties of one class into another class is known as Inheritance in Java
+Property of class means methods and variables
+
+we can inherit
+static and non-static methods
+static and non-static variables
+
+
+we cant inherit
+Constructors can not be inherited in Java
+
+we need concept of inheritance for the code reusability
+
+a class can make relation with another class using extends keyword
+
+subclass(child class) extends superclass (parent class)
+
+
+we dont create object of parent class always try to create object of child class
+
+Inheritance types
+
+Single level Inheritance
+It is where a single sub class is inheriting the property from single super class 
+
+Multi level Inheritance
+One class inherits another class which also inherits another class is called as Multi Level Inheritance
+
+sub class->super class->super most class
+
+
+Multiple level Inheritance   
+In multiple level inheritance a single sub class inherits properties from many super classes
+
+It is not possible to achieve in Java using class concept but same is possible to achieve in java using interface concept
+// diagram in diagram folder
+
+Also in java
+class A extends B,C->will give comiple time error
+
+Diamond Problem //Diagram in diagram folder
+
+
+
+Hierarchal level Inheritance
+In hierarchal level inheritance many subclasses inherits the properties from a single super class
+// diagram in diagram folder
+
+
+Hybrid level Inheritance
+
+
+
+Note- subclass(child class) having main method is the only class that is in package explorer
+
+
+Class 14
+
+Hybrid level Inheritance
+//diagram in diagram folder
+
+It is the combination of single level , multilevel and heirarichal level Inheritance
+
+
+Object Class
+It is the root class of entire class hierarchy 
+This relation is present implicitly
+
+
+Method Overriding
+Developing a method in the parent class with the same name and signature as the child class but with different implementation is known Method Overriding
+
+super class 
+-method
+implementation 1
+
+sub class 
+-method
+implementation 2
+ 
+
+decleration	int a;
+initilization	a=100;
+utilization	sysout(a)
+implemenattion	method body
+
+What do you mean signature of method?
+Signature of method means method return type and the parameters
+
+Rules to achieve Method Overriding
+1) Both method should have same name
+2) We can override only non-static method
+3) Both class must have a relation with each other
+
+super keyword in java is used in concept of method overriding to call the parent class implementation together with the child class implementation
+super keyword in java has to be utilized only in case of a non-static method
+super keyword can be the first line or second line or any line in the non-static method
+
+
+Class 15
+Super Calling
+super calling statement is used to call parent class constructor from the child class constructor
+super calling statement should always be the first line in every constructor
+
+super()-super calling statement can be of 2 types
+
+parameterized super calling statement should only be called explicitly
+non-parameterized super calling statement can be called both implicitly or explicitly
+
+implicitly means by itself
+explicitly means forcefully
+
+
+this()-This statement
+It is use to call one constructor from another constructor within the same class
+this() has to be the first line in every constructor
+this() are of two types
+parameterized 
+non-parameterized
+this() can be written explicitly only
+
+Note- Any constructor can newer be the combination of super calling statement and this calling statement
+
+
+Class 16
+
+This keyword
+With the help of this keyword the value of rhs will asssing to lhs
+this.global_variable = local_vairable;
+
+this keyword should only be used in non-static context[non-static methods and variables]
+It can only be used in case of global variable parameters are same as method parameters/local parameters
+It can be in any line no need to be first line
+It will be used in parameterized method
+
+
+Switch Case in Java
+
+switch(case)
+{
+case 1: logic;
+        break;
+case 2: logic;
+        break;
+case 3: logic;
+        break;
+default:
+        logic;
+       
+}
+
+
+String Function // important for interview
+
+It is class and it has many methods
+
+String a= "Ram";
+or
+String s1 = new Sting("Ram");
+a.list of methods= list of string functions (non-static methods)
+
+
+length 
+charAt(index)
+indexOf(charint)
+trim
+tolowercase
+touppercase
+
+B A N G A L O R E
+0 1 2 3 4 5 6 7 8 
+
+
+Class 17
+
+length 
+charAt(index)
+indexOf(charint)
+trim - removes space from the starting and ending of string not from the middle of string
+tolowercase
+touppercase
+
+equals- It is use to compare the value of two strings
+concat-combining one string with another string
+equalsIgnoreCase- ignores case and gives output in Boolean
+
+StringIndexOutOfBoundsException- if try to print something beyond the string index
+
+
+System.out.println();- print statement and moves to next line 
+System.out.print(); -  print statement and does not move to next line
+
+
+tocharArray
+
+
+Array
+Array in java is used to store the homogenous value together
+Syntax:
+
+datatype variable[] = new datatype[Size];
+or
+datatype[] variable = new datatype[Size];
+
+Please create an array of int datatype to store the roll no of 3 students
+int rollno[] = new int[3];
+rollno[0]=21;
+rollno[1]=22;
+rollno[2]=22;
+
+
+Please create an array of String datatype to store the name of 3 students
+String name[] = new String[3];
+name[0]="rohit";
+name[1]="sandeep";
+name[2]="atul";
+
+if the size of array is bigger and u stored less values then it prints the default value of datatype
+
+
+Arrays.toString(variable)- use to print data in the array 
+
+ArrayIndexOutOfBoundsException
+
+
+
+can we change the size of array at runtime
+no
+
+can we change the size of array at compile time
+yes
+
+How to update the value of array
+yes
+int[0]=10;
+int[0]=11;
+
+
+can array accept duplicate values?
+yes
+
+can array accept null value?
+yes it can accept for String datatype    null means (unknown value)
+
+
+can array accept hetrogenous value?
+no
+
+
+Can we sort an array?
+Yes
+Arrays.sort(variable)
+
+
+Class 18
+
+Reverse the string
+
+Find out given string is palindrome
+mom-is palindrome
+dad-is palindrome
+
+
+tochar array
+retrun type is char[] 
+
+char a1[]=new char[5];
+a1[0]=p;
+a1[1]=o;
+a1[2]=o;
+a1[3]=j;
+a1[4]=a;
+
+
+
+In the given String how many are alphabet letter present	
+sol in CharAlpha program
+	
+In the given String how many are numeric letter present	
+	
+	
+In the given String how many are space's present	
+
+
+
+DataType	Associated Wrapper Class
+int	Integer
+char	Character
+byte	Byte
+short	Short
+long	Long
+float	Float
+double	Double
+boolean	Boolean
+
+
+Class 19
+
+In the given String how many are special characters are present	
+Total length of string - (total alphbets-total numeric-total spaces) = how many are special characters
+
+
+Check if 2 arrays are equals to each other
+ArrayEqual
+
+How to pass the value of array from scanner class
+ArrayScanner
+
+
+
+How to pass the string value of array from scanner class
+ArrayStringScan
+
+
+
+How to pass the boolean value of array from scanner class
+ArrayBoolScan
+
+
+How to pass the double value of array from scanner class
+ArrayDoubleScan
+
+
+
+How to copy the value of 1 array into another
+ArrayCopy
+
+
+How to reverse a 1 array into another
+ArrayRever
+
+
+
+In a arrays of size 4 of int datatype the values are  100,200,300and400 check if the given number is the part of array or not
+ArrayCheck
+
+
+
+Note - == - Comparison operator
+
+
+Class 20
+
+Find out the average value of an array of int datatype whose size is 4
+values are 17,35,81,42;
+Average_Array
+
+
+Matches string function
+Find out those empl name which starts with S
+
+Select * from tableName where emp_name like 's%' 
+
+Find out those empl name which ends with S
+
+Select * from tableName where emp_name like '%s' 
+
+Find out those employess whose name has 4 letters in it
+ Select * from tableName where emp_name like '____' - 4 underscores
+
+
+
+Find out if the given string starts with R
+String a=Ramu;
+
+(.*)-multi character search
+
+
+Find out if the given string has 4 letters
+
+Find out if the given string ends with u
+
+Find out if the given string has letter m or not
+
+
+
+
+
+
+Class 21
+
+String function replace
+
+In the name mansih replace m with z
+
+In the given name Manish Kumar Tiwari remove all the spaces
+
+In the given string Avinash Yadav remove all the capital letters
+
+In the given string replace or remove all the lower letters
+
+In the given string remove all the numeric values
+
+
+String contains function
+
+String split function // in this we use to store value in String[] and variablename.split(" ") here separate when space
+and if split(" ",2)-separate when space and create 2 substrings
+
+
+String repeat function
+
+String function isEmpty
+
+String function endsWith
+
+
+Find out the given 2 string are anagram of each other
+Anagram are those English words which are made up of same characters
+ram and arm
+1 Compare the length of 2 strings if not equal they are not anagram 
+2 If equals then convert given string to toCharArray
+[r,a,m]
+[a,r,m]
+
+After sorting
+[r,a,m]-[a,m,r]
+[a,r,m]-[a,m,r]
+
+
+Class 22
+
+Drawbacks of Array
+1) The size is fixed 
+2) It can only store homogenous value
+
+
+Abstract class
+Any class which has abstract methods are called as abstract class
+
+Abstract methods
+Abstract methods are those methods which has no real implementation
+
+Abstract class can never be the child class
+
+Any abstract class can have abstract method as well as concrete method
+
+
+Ex-
+void add();
+void login();
+
+Facts on abstract methods
+1) Every abstract method needs to be non-static
+2) Every abstract method needs to be overridden
+3) If method is abstract class is abstract
+4) Any abstract method need to be written as
+abstract void login();
+
+
+Concrete methods
+These are those methods which has implementation
+ex-
+void add(){
+
+}
+
+
+concrete class
+These are those classes which has only concrete methods
+
+Difference between abstract and concrete class
+Abstract class
+Will always have abstract method
+It can also have concrete method
+To write abstract class we need to use a keyword called as Abstract
+Abstract methods need to be overridden
+Abstract method must be non-static
+Abstract class must be the parent class only so that its abstract method can be override in child
+ex-
+abstract class Test{
+
+abstract void add();
+
+}
+
+
+Concrete class
+will only have concrete method
+It will never have abstract method
+To write the concrete class we dont need to use a keyword
+Concrete methods are not mandatory to be overridden
+Concrete methods can be static and non-static
+Concrete class can be any class either child or even parent
+ex-
+
+class Conc{
+
+void add(){
+
+}
+
+}
+
+
+
+Class 23 
+
+Interface 
+Interface are used in java to achieve 100percent abstraction
+Interface will only have the abstract methods
+
+Relationship diagram of class , abstract class and interface
+
+implements keyword is use to create relationship between class and interface
+
+Interface can not make relationship with class and abstract class as Interface can never be child
+
+Under Interface no need to write abstract for abstract methods
+
+
+Difference between abstract class and Interface
+
+Abstract class
+can have both abstract and concrete method
+Cant achieve multiple level inheritance
+Abstract class can achieve 0-100 percent abstraction
+from abstract class to class relation is possible
+class can create relationship with abstract class using extends keyword
+abstract class can have any access specifier
+abstract methods can take any access specifier for methods
+
+
+Interface 
+can only have abstract method
+is use to achieve to multiple level inheritance
+100 percent abstraction
+from interface to class relation is not possible
+class can create relationship with interface using implements keyword
+interface are by default public
+interface methods are by default public in nature
+
+
+
+Class 24
+
+What is Abstraction
+Hiding the implementation of a class and exposing only what is required is known as abstraction
+
+Abstraction can be achieved by Abstract class and Interface
+
+With Abstract class we can achieve 0-100 percent abstraction 
+
+With Interface we can achieve 100 percent abstraction 
+
+
+Access Specifier
+
+public 
+private
+protected
+package/default
+
+
+behavior of access specifier with class
+
+Any class can have just 2 access specifier in java that is public and package/default
+
+What is meaning of class being public?
+A class which is public can be access within the package and outside the package as well
+
+
+What is meaning of class being default/package?
+A class being default/package that it can be access within the package only.
+
+
+behavior of access specifier with methods
+
+Any method can have all 4 types of access specifier in java 
+
+
+
+	     With in the class?	        In a package?	          Outside the package by becoming sub class?   Outside package without becoming subclass? 
+private	        TRUE		           False	                            FALSE                                      FALSE                      
+package/default	TRUE	                   TRUE		                            FALSE                                      FALSE
+protected	TRUE	                   TRUE		                            TRUE                                       FALSE
+public		TRUE	                   TRUE	                                    TRUE                                       TRUE
+				
+				
+	class 1 	have methods of different access specifier		
+	class 2	        try to call methods of class 1 in main method of class2		
+				
+				
+				
+Outside the package by becoming sub class?				
+package 1	class 1 	have methods of different access specifier		
+package 2	class 2         extends class1 and have main method		
+				
+				
+Outside the package without becoming sub class?				
+package 1	class 1 	have methods of different access specifier		
+package 2	class 2         create object of class 1 in main method		
+				
+				
+Behaviour of access specifier with interface				
+				
+What is meaning of interface being public?				
+A interface can be access within the package and outside the package as well				
+
+
+Continue Keyword
+It is use to skip a particular iteration
+
+
+
+I need to peddle 50 times to reach office- Loop count you are aware
+I need to keep peddling until I reach office- Loop count you are not aware
+
+whenever you aware with loop count use for loop
+whenever you are not aware with loop count use while loop
+
+
+Class 25
+
+Syntax of while loop
+
+Declaration and initialization
+while(condition)
+{
+Logic;
+
+i++;
+
+}
+
+
+SIB IIB
+Blocks in Java
+SIB
+static initialization block
+syntax
+
+static
+{
+
+
+}
+
+IIB
+instance initialization block
+syntax
+
+ {
+
+
+ 
+ }
+
+How to invoke SIB
+If main method is present SIB will call automatically
+
+How to invoke IIB
+by creating object
+
+
+main method always execute when SIB is absent because when SIB is present SIB will execute first then main method will execute
+
+
+Order of execution is different from output of the program
+Class-SIB and main method
+order of execution - SIB,Main method
+Output - 
+
+Multiple SIB - yes possible any number of Sib can be present in program
+Order of execution - Line by line
+Output - order of output depends how u want it will execute line by line
+
+One object creation will invoke all the IIBs
+
+IIB and SIB can not be parameterized , blocks can not be parameterized
+
+What will be the order of execution 
+IIB
+SIB
+main method
+constructor
+
+Ans
+SIB
+main method
+IIB
+constructor
+
+
+Why SIB?
+
+SIB is use to set Pre condition
+
+Developers will use this concept to create connection with database
+
+
+assert keyword
+
+assert                Java
+Assert (Class)        TestNg
+SoftAssert (Class)    Selenium
+HardAssert (Class)    Selenium
+
+
+Assertion
+Comparison of expected behaviour with the actual behaviour is known as Assertion
+
+
+Syntax 1:
+assert condition;
+
+Suntax 2:
+
+assert condition :(error message);
+
+
+Run configuration 
+under vm arguments
+vm -ea
+
+
+Class 26
+
+Exception Handling
+
+whenever any exception comes it terminates the program
+
+It can be done in java using 2 keywords
+one is try and another is catch
+
+Syntax:
+try{
+
+//which ever line giving exception
+
+}
+catch(ExceptionName variable)
+{
+
+//it must be handled here
+
+}
+
+Note:
+1 Whichever line is giving exception should be under try block
+2 And it must be handled under catch block
+3 Writing try and catch block does not means exception is mandatory to come
+4 If exception comes then try block will not execute and catch block will execute
+5 If exception does not comes then try block will execute and catch block will never execute
+6 For every 1 try there can be one catch or multiple catches block
+
+
+We want exception handling for the continuity of program
+
+Assignment
+Array size 4
+and enter 5 values
+and handle it using exception handling
+
+
+
+Class 27
+
+        int rollno[]=new int[3];        
+        rollno[0]=85;
+        rollno[1]=96;
+        rollno[2]=55;
+where size is coming from scanner class 
+try to get 2 exception one for nextint and other for outofbound.
+handle it carefully to avoid termination"	
+
+
+Finally block
+It should be used in case of exception handling to execute some necessary actions that developer wants to in the case of exception handling because
+we are not sure try block will execute or catch block will execute but what we are sure is finally block
+1 try with 10 catches
+1 try with 1 catches
+
+
+Syntax:
+try{
+
+//which ever line giving exception
+
+}
+catch(ExceptionName variable)
+{
+
+//it must be handled here
+
+}
+finally{
+
+}
+
+try to handle string index out of bond exception through try and catch
+
+
+Throw keyword
+It can be used in java to throw the exception
+
+Syntax:
+
+throw new
+
+throw new exceptionname();
+or
+throw new exceptionname("Message");
+
+
+Throw                                                    Throws
+It is use to throw an exception                          It is use to declare an exception
+One throw keyword can throw one                          One throws can declare any number of exception
+exception
+Throw keyword should be written                          Should be written together with method name                
+inside the method
+Syntax:                                                  Syntax:
+throw new NullPointerException("Sorry file is empty");   public static void main(String[] args) throws NullPointerException
+
+
+
+Type casting
+Converting one type to another type is called type casting
+It can be done in 2 ways
+1) Primitive type casting
+2) class type casting
+
+Primitive type casting
+Converting one datatype to another datatype is called as primitive type casting
+
+Class type casting
+Converting one class to another class is called as class type casting
+
+
+
+Class 28
+
+Types of primitive type casting
+Narrowing 
+Widening 
+
+
+Lets convert int into double
+
+whatever we wish to convert keep it at right hand side -> to what u want to convert that should be on left hand side
+Ex - Converting laptop into Tv
+
+Tv=laptop;
+
+Widening can be done in 2 ways implicit and explicit
+Converting into to double
+
+Narrowing will be done explicit only
+
+Converting double into int
+
+Assignment
+write age in byte data type and covert into short datatype
+
+
+
+
+Class type casting
+are of two types 
+Upcasting
+Downcasting
+
+Upcasting - Converting child class object into super class Type is called as Upcasting
+It can be done in 2 ways one is implicit and explicit
+
+
+Downcasting- Converting super class type into child class object is called as Downcasting
+It can be done only explicitly
+Note- Downcasting can never be perform without upcast
+
+
+Assignment
+Parent class have 2 static methods and 2 non-staitic methods
+Child class have 2 static methods and 2 non-staitic methods
+
+do upcasting and downcasting
+
+
+note
+collection - Interface
+collections - Class
+both in java.util.package
+
+
+Collection in Java
+Collection is a framework in Java which can help us to create a data , delete a data , update the data and fetch the data
+Basically it helps us to do the CURD functionality.
+In Collection all the methods are API unlike array methods
+Just because its a framework it allow us to perform a wider range of actions compare to array
+In Collection we have so many classes , so many interfaces , etc
+The root interface we have in collection is Iterable(I)
+Collection framework started in Java version 1.2 and it is basically divided into 2 packages
+java.util.Collection;
+java.util.Map;
+
+
+java.util.Collection Heirarchy
+diagram in folder
+
+
+
+java.util.Map Heirarchy
+diagram in folder
+
+
+Types of Data Structure
+
+Primitive DS
+all those datatypes which are keywords like
+byte
+short
+int
+long
+float
+double
+Boolean 
+char
+
+Non Primitive Data Structure
+we have two Linear and non-linear
+
+Linear Data Structure- try to store data in a single line
+ex- String , Arrays, List , Set , Queue , ArrayList , LinkedList , HashSet , LinkedHashSet, etc.
+
+Non Linear Data Structure- try to store data in notes and trees
+ex-Graph , Trees
+
+
+Class 29
+
+Collection methods
+
+Does it follow
+Index -True
+Hetrogenous - True
+Dynamic - True as it has no fix size
+null - True
+order of insertion-True
+duplicate-True
+ways to iterate - Iterator 
+
+
+
+Properties of List(I)  List l1 = new ArrayList(); //upcasting to use list methods
+Does it follow
+Index -true
+Hetrogenous -true
+Dynamic - true
+null - true
+order of insertion-true
+duplicate-true
+sorting - does not auto sort have to sort with Collections class sort method and list should have homogenous values
+ways to iterate - Iterator and ListIterator
+
+
+note-
+Iterator- is applicable for entire collection
+ListIterator- is only applicable for entire list hierarchy
+
+Iterator	hasnext,next  can do forward iteration
+ListIterator	hasnext,next,hasprevious,previous can do forward as well as backward iteration
+
+
+Note- Backward iteration is not possible without forward iteration in ListIterator
+
+
+Properties of Set(I)    Set s1 =new HashSet(); //upcasting to use set methods
+Does it follow
+Index - Does not follow indexing (false)
+Hetrogenous -true
+Dynamic - true
+null - yes accept null but only 1
+order of insertion- false
+duplicate- does not accept duplicate
+ways to iterate - Iterator 
+
+
+
+Class 30
+
+Iterator has hasNext() , next() also have remove()
+
+ListIterator hasNext() , next() , hasPrevious(), previous() , remove() , set() - is use to replace the data
+
+
+Assignment behaviour of each classes under List and Set 
+
+	                           Index	Hetrogenious	Dynamic	  null	    order of insertion	duplicate	Iterator?	ListIteartor?   Sort
+ArrayList                          True              True         True      True              True        True           True             True          True
+Vector				   True              True         True      True              True        True		 True             True	        True
+LinkedList			   True              True         True      True              True        True 	         True             True		True
+Stack				   True              True         True      True              True        True		 True	          True          True
+PriorityQueue			   F		     F	          True        F                 F         True           True             False        False
+HashSet				   F		     True         True        1                 F          F             True             False        False
+LinkedHashSet			  F 		     True         True        1                 F          F             True             False        False
+TreeSet                            F                 F            True        F                 F          F             True             False        False
+
+
+
+
+Class 31
+
+
+utilize
+pop();
+peek();
+push();
+utilize in stack properties program
+
+Legacy classes are Vector, Stack
+
+Enumeration for iteration of legacy classes
+
+
+Cursors in Java
+
+Assignment
+Check if vector class can be iterated using iterator , listiterator and enumeration
+
+
+ Linked list
+Diagram in diagram folder for doubly linked list
+
+ArrayList and LinkedList difference
+
+If u have to store the data in the form of indexing which interface among set and list which will u follow?
+Ans- List
+
+
+If u have to store the data with uniqness which interface among set and list which will u follow?
+Ans- Set
+
+
+
+Class 32
+
+Difference between Collection and Collections
+
+
+Collection
+It is an interface
+Collection inherits iterable interface
+It consist of abstract methods
+comes from java.util.collection package
+Collection interface have many interfaces and classes in it
+
+Collections
+It is a class
+It inherits Object class
+Collections is a class which has all static methods
+comes from java.util.collections package
+Collections method can be utilized on collection interface or in its classes
+
+
+Map Interface
+Use to store data in pair key and value
+Index- They dont follow indexing
+order of insertion- They dont follow
+
+
+Class 33
+MapPro4
+foreach loop
+Difference between List Set and Map
+
+Class 34
+
+StringBuffer initial capacity is 16
+
+StringBuffer and StringBuilder have 3 same constructors
+
+something that can be change is called as mutable
+something that cant be change is called as emutable
+
+String - emutable
+StringBuffer-mutable
+StringBuilder-mutable
+
+Class 35
+
+Repeat all methods for StringBuilder
+
+How String is immutable
+Means it can not be change once its created 
+Java uses a special memory area called String Pool for storing strings efficiently, when you create a string Java checks
+if exact same string is already in the pool and if it is , then java uses that existing string instead of making a new one.
+Strings can not be changed so they are good to use
+
+
+What does synchronized means
+what does non-synchronized means
+StringBuffer vs StringBuilder
+Thread safe and synchronized
+growth strategies
+diff bet ArrayList and Vector
+diff bet Array and ArrayList
+
+Class 36
+
+GitHub
+Its a code repository where u can store the code
+we need 2 things
+GitHub account-to store ur code and gitbash- a software from where u can push it
+
+
+After creating account in GitHub then create a repository in GitHub
+
+git --version
+
+in the folder
+git init - should be done only onece
+
+git clone https://github.com/RohitJoshi0003/BasicsOfJava.git   - should not repeat
+
+
+remote-GitHub
+local-desktop
+
+
+ls
+list of files
+
+cd name of folder to enter
+
+git status
+git add filename - for a particular file
+git add . - all the files
+
+git commit -m "meesage"
+
+git push --all repository url
+
+git pull reposirty url
+
+
+How to move the control to main branch to another branch
+$ git branch --all - to fetch name of all branches
+git checkout -b branchName - this will create a new branch and move control to new branch
+$ git checkout master-switch back to master branch
+
+
+
+
+Polymorphism
+An object showing different behaviour at different stages of its lifecycle is known as Polymorphism
+It actually means same action in various ways
+ex- 
+Login- Login with mobile
+Login - Login with email
+
+ex- 
+Payments-Net Banking
+Payments-Credit Card
+Payments-Debit Card
+Payments-UPi
+Payments-RTGS
+
+
+
+Class 37
+
+Polymorphism is of two types
+1) Compile time polymorphism
+An object showing different behaviour at different stages of its lifecycle during the compile time based on the arguments passed is called as Compile time polymorphism this can be achieved by method overloading
+
+
+2) Runtime polymorphism
+An object showing different behaviour at different stages of its lifecycle during the run time based on the object created is called as Run time polymorphism
+this can be achieved by method overriding
+
+
+
+Encapsulation
+Restricting the access of the data member of the class by making it as a private is called as encapsulation
+Providing the indirect access of those methods using getter and setter should be done for those data member
+Rules
+1) The data member whose access you want to restrict make it as a private
+2) Provide 2 methods known as getter and setter for getting and setting values and these 2 methods should be public
+
+
+Class 38-Test of core java till here
+
+What is Object Oriented Programming
+COAPIE
+Class
+Object
+Abstraction
+Polymorphism
+Encapsulation
+Inheritance
+
+
+Which all languages are object oriented programming language
+Java Python Ruby C# JavaScript, etc.
+
+Which all languages are not object oriented programming language
+Ada, Basic,  C, C++ Pascal Cobal, etc.
+
+
+What is Diamond Problem in Java?
+In case of multiple level inheritance using classes if the child class have the super() calling statement then it will be ambiguity(confusion) that
+which parent class constructor to invoke this leads to a diamond problem 
+Since both parent have the property of the object class the child will be confused from which parent it has to utilize the object class property 
+
+How to find current time and past time in JAva
+Date class can be used
+
+
+Class 39
+
+Selenium starts
+Tool- that can automate web-based application-browsers
+
+Advantages
+can automate web-based application
+can automate most of the browsers like chrome , firefox, safari ,edge ,internet explorer ,etc.
+Its not platform dependent
+it means we can run it in any operating system like- windows ,mac-os and ubuntu
+Selenium can integrate with many other tools like TestNg,Maven, POI Jars etc which makes it a strong suite of tool
+Selenium can integrate with Jenkins which is your  CI/CD tool to run the script directly in remote server
+
+
+suite- means of collections of tools
+
+
+Disadvantages
+You cant automate mobile application
+You cant automate standalone application- that does not needs internet like paint,calculator,etc
+It cant automate capcha,barcodes,images,you are human,scanner,etc.
+
+
+How to set-up selenium
+
+
+
+
+How to launch browsers 
+ChromeDriver driver = new ChromeDriver();
+FirefoxDriver driver = new FirefoxDriver();
+SafariDriver driver = new SafariDriver();
+
+
+ctrl shift o for import required package
+
+
+driver.get("String url"); - launch any url
+
+driver.close();
+will close parent browser tab or It closes that browser that has control
+
+driver.quit();
+will close parent and child browser/tab
+
+
+driver.getwindowhandle();
+will give you the browser id of parent tab or that tab that has control
+
+driver.getwindowhandles();
+will give you the browser id of parent tab and child tab 
+
+
+Class 40
+
+driver.getTitle();
+getTitle will give u the title of the page
+
+
+driver.findElement();
+Use to find single element
+
+Ex-Launch Google type India and click on search button
+there are 2 elements 
+search text field
+search button
+here we use findElement for finding 2 components separately
+
+
+
+
+driver.findElements();
+Use to find multiple elements
+Ex- Count total Links of the page
+here we use findElements bcs of many components 
+
+In selenium we do
+
+Find the element
+driver.findElement();
+driver.findElements();
+
+Locate them
+id
+name
+classname
+tagname
+xpath
+css locator
+Linktext
+PartialLinktext
+
+note- Locators are the static methods of By class
+
+
+Perform action on it
+click
+typing
+hover over
+double click
+
+tagname - is starring one
+attribute- is the name and value
+
+
+Launch amazon india and type shoe and press enter
+
+login to amazon
+
+Assignment
+login to facebook
+
+Assignment
+https://grotechminds.com/registeration-form/- try to automate the fields only using id and name locator
+
+
+
+https://grotechminds.com/automate-me/- for automation practice
+
+
+How do we automate those web application where right click is disabled
+using f12 and ctrl+shift+i
+
+
+
+
+Class 41
+
+The default tag name of any link will be a
+
+Launch google and launch gmail using Linkedtext locator
+
+Launch amazon and click on best sellers using Linkedtext locator
+
+Launch flipkart and click on mobile using Linkedtext locator
+
+
+if tag name is anything than a then the text will not be linked text
+
+In partial linked text we can use partial part of Linked text but it will work only when it is unique and not used anywhere on the page
+
+
+On youtube click on signin button
+
+Launch amazon and click on Today's deal using Partiallinktext locator
+
+
+Assignmant
+DO it for any financial bank and automate login page
+Launch myntra and click on mens section
+
+
+How to go back , move forward , refresh and other way to Launch url
+all is done with help of navigate methods
+
+How to check component is selected 
+isselected()
+
+How to check element is enabled 
+isenabled()
+note- not able to work on disabled components
+
+How to check element is present
+isdisplayed()
+
+Launch amazon search for shoe only if the search field is enabled and displayed
+
+Class 42
+
+Xpath
+
+
+2 types of xpath
+
+Absolute xpath 
+In absolute xpath we traverse from parent tagname to immediate tagname with help of a single forward slash
+ex-/grandfather/father/Me
+
+Relative xpath
+In relative xpath we traverse from parent tagname to any of the child tagname directly with the help of double forward slash
+Ex-//Father
+
+Synatax:
+
+//tagname[@atrributename='attribute_value'];
+
+Assignment
+Launch search a product click on first product add it to the cart
+
+
+
+How to write xpath with help of a text message
+//tagname[.='']
+
+
+Assignment
+Launch google type india with help of new type of xpath
+In amazon select 2 option from the search option
+
+
+Class 43
+
+Assignment
+In the given html form lets click on a link-done during class
+
+On google.com type India using tagname
+
+How to handle a dropdown
+
+note-
+Default tag name of any dropdown will be select
+This can be handled using Select class in selenium
+
+Select s1 = new Select(e1);
+s1.selectByvalue();
+s1.selectByindex();
+s1.selectByvisbiletext();
+
+e1-is the element on which u want to perfrom drodown
+
+
+Launch Amazon and from the category select books using select class-done during class
+
+Handle the second registration form and handle all dropdowns using select class-done 32
+
+Handle the first registration form and handle all dropdowns using select class-done 33
+
+
+All these 4 below we can do using Actions class in Selenium
+
+
+How to do hoverover
+
+Launch amazon hoverover account list and click on signin-done during class
+Actions a1 = new Actions(driver);
+e1.movetoelement(e1).perform();
+
+e1-is the element on which u want to perfrom hoverover
+
+
+hoverover on registration and flight application on grotech site -done 34
+
+
+How to drag and drop
+
+"Actions a1=new Actions(driver);
+a1.draganddrop(e1,e2).perform();"
+"e1->element u wish to drag
+e2->element where u wish to drop"
+
+In the grotechmind drag the postman and drop it in dropable zone-done during class
+
+note-never write xpath for image tag
+
+
+
+how to double click
+"Actions a1=new Actions(driver);
+a1.doubleclick(e1).perform();"
+e1->the componenet on which u wish to do double click
+
+Launch google and double do double click on gmail-done during class
+
+
+
+
+
+Class 44
+
+how to right click on any component
+
+"Actions a1=new Actions(driver);
+a1.contextclick(e1).perform();"
+"e1->element u wish to right click
+
+Launch google and right click on gmail-35
+
+
+
+How to handle auto suggestions
+
+will deal with findelements return type is Listofelement
+
+need to write xpath for each element unique
+
+here we deal with grandparent tag then parent tag then there are multiple child tag
+
+try to search for same siblings
+
+then try to check last sibling
+
+Launch google and search bangalore and handle auto suggestion-done during class- 36-done
+
+
+Launch amazon type shoe and select the 4 element - 37-done
+
+
+Launch flipkart type shoe and select the 2 element - 38-done
+
+
+Launch appolo pharmacy type shoe and select the 4 element - will do later
+
+
+
+How to take screen shots in selenium
+1) Upcasting driver to TakesScreenshot(I)
+2) getscreenshotAs to take screenshot             source
+3) File f1 = new File("Location of screenshot including file name")   destination
+4) FileHandler.copy(source,destination)
+
+
+Class 45
+How to take unique screen shot in selenium
+need to concatenate Math.random() with file name in the path so that screenshot will save uniquely each time
+"+Math.random()+"
+we can attach current time with filename
+
+name concatenate with current time
+
+
+Print all the links of a given website
+
+Print the text of all the links in the given page
+
+Class 46
+
+How to get the broken links in the given page of website
+
+API status codes
+
+	                     Status Code	Response Message	      Example	
+"2XX
+(Successful Response)"	          200	              ok		
+"4XX
+(Client Side Error)"	          400	          Bad request	           URL was wrong	
+	                          401	          UnAuthorized	        "Credentails are wrong/
+                                                                       when u do somethng and u dont have the cred"	
+	                          403	           Forbidden		
+	                          404	           Not Found		URL is wrong
+"5XX
+(Server Side Error)"	          500	              ISE		
+	                          503	          Servive Unavailable		
+	                          504	          GatewayTimeout	
+
+
+
+
+Css locator
+means cascading style sheet
+a) How to write css with help of id                   #id_value
+b) How to write css with help of class name           .Classname_value
+c) TN,AN and AV                                           tagname[AN='AV']
+d) AN,AV                                              [AN='AV']
+
+
+Class 47
+
+e) Tagname Attribute Class name Attribute name and Attribute value   TN.CN[AN='AV']
+f) Tagname Attribute name and substring of value                     TN[AN^='AV']
+g) How to write css with help of tagname and classname               TN.CN
+
+
+TestNg
+It stands for test next generation 
+It is a framework which allows to do 
+1) Parallel testing
+2) Crossbrowser testing - also known as compatibility testing 
+3) Data Driven testing- testing with multiple data
+4) Generate Reports
+5) Running many test cases together
+6) Group Test Cases -can group test cases on the basis of type of testing 
+
+
+How to configure TestNg in the java project
+in TestNg no need of main method
+because in TestNg we have Annotations concept
+
+
+syntax of class in TestNg
+
+class One
+{
+@Test
+public void method1()
+
+{
+
+
+}
+}	
+
+Different Annotation in TestNG are
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+
+Class 48
+
+Order of execution will also be same
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+
+Number of @Test decides number of test cases
+
+
+For every @Test we have our own before and after method
+
+
+when u have 2 Test present in program what will be  the order of execution
+Alphabetic order of the method name
+
+login 1
+registration 2
+
+
+parameter called priority
+1
+2
+3
+lower the priority first will execute
+
+default priority of Test if not mentioned  is always zero
+
+priority can be -ve
+
+
+
+Class 49
+How to run the same test cases multiple times
+using invocation count
+
+
+
+How to disable a test case
+enabled=false
+
+What is the default priority 
+0
+
+What is default invocation count
+1
+
+what is the default status of any test cases enabled or disabled
+enabled
+
+
+How to pass invocation count and priority together
+with help of ","
+
+
+TestCase 1 = login to amazon and searching product-logout
+TestCase2 = login to amazon and searching and clicking on 1st product-logout
+
+take screen shot in the after method as well
+
+
+Upcasting Chrome Driver and other browser to WebDriver Interface
+
+WebDriver driver=new ChromeDriver ();	Chrome Browser
+WebDriver driver=new FirefoxDriver ();	Firefox Browser
+WebDriver driver=new SafariDriver ();	Safari Browser
+WebDriver driver= new EdgeDriver();	Edge browser
+
+
+Class 50
+How to do cross browser testing and parallel testing in TestNg
+@Parameters
+
+if in xml file all can not have the same name of test it will give exception
+
+always use this concept in before test method
+
+@Parameters takes input from the xml file
+
+
+
+How to do data driven testing
+Testing same testcases with multiple data
+This can be single dimension as well as multiple dimension
+
+
+@DataProvider
+
+
+
+On amazon search field try to test 10 products using data driven testing
+
+
+Class 51
+
+taking data from 2d Object to run the data driven testing
+in 2d
+rows decide
+the no of test cases will execute
+
+Assignment
+fill the registration form in grotechminds website with 5 datasets
+
+
+How to retry the failed testcases
+IRetryAnalyzer(I)- its a interface
+
+Steps Involved:	
+1. Create a class and implements IRetryAnalyzer	
+2. OVerride the unimplemented methods	
+3. Write your own logics to retry the test cases	
+4. Create a  seperate class/Test to utilise the IRetryAnalyzer
+
+@Test(retryAnalyzer=packagename.classsname.class)"	
+
+
+Class 52
+Assertions in TestNG
+
+we can use Class Assert
+
+How to pass the testcase
+How to fail the testcase
+
+in Assert.assertTrue(intead of true or false try to write logics which returns true or false)
+
+Assert.asserttrue(true)	Test case will Pass
+Assert.asserttrue(false)	Test case will Fail
+Assert.assertfalse(true)	Test case will Fail
+Assert.assertfalse(false)	Test case will Pass
+
+Assert.assertequals(byte actual,byte expected)
+Assert.assertequals(short actual,short expected)
+Assert.assertequals(int actual,int expected)
+Assert.assertequals(long actual,long expected)
+Assert.assertequals(float actual,foat expected)
+Assert.assertequals(double actual,double expected)
+Assert.assertequals(char actual,char expected)
+Assert.assertequals(boolean actual,boolean expected)
+Assert.assertequals(String actual,String expected)
+
+
+Assert.assertequals(byte actual,byte expected,"String Message")
+Assert.assertequals(short actual,short expected,"String Message")
+Assert.assertequals(int actual,int expected,"String Message")
+Assert.assertequals(long actual,long expected,"String Message")
+Assert.assertequals(float actual,foat expected,"String Message")
+Assert.assertequals(double actual,double expected,"String Message")
+Assert.assertequals(char actual,char expected,"String Message")
+Assert.assertequals(boolean actual,boolean expected,"String Message")
+Assert.assertequals(String actual,String expected,"String Message")
+
+
+
+Login to amazon
+then assert using the title of homepage 
+
+expected should be handwritten
+but actual should come with the method
+
+
+then search a product
+then assert based Assert.assertTrue(size)
+
+
+then logout
+and assert using title
+	
+
+	Assertion	Expected Behvaiour	Actual behaviour
+Login to Amazon	Title	Should come from HTML 	driver.gettitle
+Serach a product	Assert.asserttrue(size>1)		
+Logout from amazon	Title		
+LOgin->seraching->wishlist>cart->payment option selection page	"Title also or
+use this payment method button"		
+	
+	
+	
+Class 53
+
+How to move control from the parent window to the child window
+
+getwindowhandles - id of the each window
+
+	
+Assignment
+Assertion	Expected Behvaiour	Actual behaviour
+Login to Amazon	Title	Should come from HTML 	driver.gettitle
+Serach a product	Assert.asserttrue(size>1)		
+LOgin->seraching->wishlist>cart->payment option selection page	"Title also or
+use this payment method button"	
+Logout from amazon	Title		
+
+
+Youtube search a video and subscribe channel 
+
+
+Data driven testing of selenium (excel sheet)
+it is used for hiding the data as not required to keep in code
+
+we need 
+Apache POI jars
+
+
+Class 54
+
+Steps require to fetch the value from excel sheet
+Non technical step required
+1 Let the java know where exactly is excel sheet
+2 Open the excel sheet
+3 Go to the right sheet name
+4 Go to the right row
+5 Go to the right column
+6 Fetch the cell using a method called "getStringCellvalue"
+
+
+Technical steps
+1 Using the class called FileInputStream let the java know where is excel sheet
+2 Using the WorkbookFactory.create-> create the excel sheet return type is Workbook
+3 Using getSheet ("Pass here the name of the sheet") return type is Sheet
+"4. Using getRow(""pass here row value""
+)
+return typs is Row"
+"5. Using getCell(""Pass here the cell index"")
+
+return type is Cell"
+
+"6 Fetch the Cell using a method called
+""getStringCellvalue"""
+return type is String
+
+
+
+
+What will happen if the location of excel sheet is wrong
+File not found
+
+What will happen if u fetch an empty cell 
+Null pointer exception
+
+
+What will happen if u fetch the numeric value
+Illegal State exception
+
+
+Assignemnt
+fetch values from excel sheet and then apply DataProvider 2X2 matrix
+
+
+Class 55
+TestNG Listeners
+
+Listeners are the line of code that listens every piece of Test activity
+
+These are of various types
+ITestListner
+IReporter
+ISuiteListner
+IHookableMethod
+IInvokedMethod
+
+
+How to invoke the ITestListenre
+1 Create a class implements ITestListener
+2 OVerride abstract methods
+3 Write own logic
+4 Create a separate to utilize the same
+
+
+
+Takes screenshot in listener as well
+log the pass and fail
+
+Class 56
+
+Grouping the Test Cases in TestNG
+
+if exclude under run in groups in xml file if I exclude smoke then only system will run
+
+What is smoke
+regression
+system
+component testing
+Integration testing
+
+
+How to skip a test case and why we skip a test case
+
+
+timeOut parameter in @Test
+thread timeout exception
+
+@Test(timeOut=6000)
+
+Class 57
+POM[Java Design Pattern]
+Page Object Model
+
+We need POM concept for basically 2 reason 
+1) To overcome the drawback of StaleElementReferanceException		
+2) To avoid duplicate codes
+
+
+
+Package 1 - source - All the Page classes will be present 
+                     like -
+                     HomePage.java
+                     Login.java
+                     Registration.java
+
+Package 2 - test -   All the test cases will be present
+                     TestCase1
+                     TestCase2
+                     TestCase3
+
+
+In source file
+source               HomePage.java
+                     Login.java
+                     Registration.java
+1. Locating each componenet using @FindBy Annottaion
+2. Creating seperate methods for each componnet to perform its action
+3. Initilising the elemnts using Pagefactory Class inside the constructor"		
+
+
+
+Login to Facebook
+source 
+Login.java
+1. Locating each componenet using @FindBy Annottaion
+2. Creating seperate methods for each componnet to perform its action
+3. Initilising the elemnts using Pagefactory Class inside the constructor"		
+
+
+
+
+Test
+TestCaseLogin
+
+
+
+What happens when u dont initialize the component and perform actions
+NullPointerException
+
+
+Do the registration on FB using pom file
+
+
+
+
+
+Class 58
+Assignment
+Login to FB
+search friends
+click on add option
+
+Poject
+Maven-Project
+TestNG-framework
+POM-design pattern
+every test case assertion
+use IRetryAnalyzer
+use TestNGListener
+use DDT for sensitive data provide through excel
+BeforeMethod and AfterMethod in LaunchQuit to use 
+@Parameters - for parallel and cross browser testing
+
+
+
+Class 59
+
+
+How to integrate POM.xml with testing.xml
+need to complete 2 test cases first in maven
+
+
+
+How to run any browser in headless mode
+without launching browser but still the program will execute
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--headless");
+
+for edge 
+EdgeOptions
+
+for firefox
+Firefox options
+
+
+How to find out coordinates of any componenet in selenium
+launch amazon find out the coordinates of about amazon
+
+How to scroll down
+1 Upcasting driver to JavaScriptExecutor Interface
+2 Utilizing its abstract method called as execute script and writing the script as
+js.executeScrit("window.scrollBy("+x+","+y+")")
+
+
+Selenium components
+Selenium WebDriver
+Selenium IDE
+Selenium Grid
+
+
+Class 60
+
+Selenium Synchronization
+can achieve in 3 ways 
+1 implicit wait
+driver.manage.timeouts.implicitlywait(Duration.ofsec(10))	
+
+Duration is a class here
+ofsec is a static method of Duration
+It has many more static methods like
+ofhours
+ofdays
+ofminisec
+of min etc
+
+if the element is not loaded in 10 sec then it give no element exception
+it can be use for only find element and find elements method in selenium
+
+Polling period of implicit wait is 500 milliseconds
+
+
+2 explicit wait
+WebDriverWait w1=new WebDriverWait (driver,Duration.ofsec(10));
+w1.untill(ExpectedConditions.(list of methoods));
+
+list of methods
+are - titleIs, titleContains
+
+
+WebDriverWait
+Duration
+ExpectedConditions			
+
+Polling period of explicit wait is 500 milliseconds
+
+if threshold time is 10 sec then after how much time it will keep checking expected condition is 500 milliseconds
+
+
+
+What is TimeOut exception
+
+3 fluent wait
+
+
+
+Characteristic of a javascript pop-up
+1 JavaScript pop-up will not inspectable pop-up means right click does not work here
+2 JavaScript pop-up will give us maximum 2 option to select that will be true or false , do u agree or not agree
+3 JavaScript pop-ups are mandatory to handle else will get unhandeled alert exception
+
+
+
+
+Class 61
+
+First handle alert then maximize the window
+
+
+File upload option
+
+
+Launch google and right click on gmail and open in incognito window
+
+
+Class 62
+
+Jenkins
+
+Its a CI CD tool 
+with help of this we can following things
+1) Run our automation script directly from GitHub
+2) We can even schedule the time at which we want to run 
+3) Deployment of builds in different environments
+4) We can restart the server
+5) Revert ur new build with old build
+
+
+How to install JRE in laptop
+
+How to run program using cmd
+
+first
+right click in src folder open cmd
+then write
+dir
+
+then compilation
+javac filename.java
+
+then interpretation
+java filename.java
+
+
+then after installing jre 11 ,17 or 21 then install jre
+
+In Jenkins
+1 How to run the java programs in local from Jenkins
+2 How to run the java programs from GitHub in Jenkins
+3 How to run the selenium programs in Jenkins using pomfile
+
+
+Class 63
+how to integrate POM.xml and TestNg.xml
+
+
+
+
+Class 64
+difference between java and maven project
+
+iframe
+
+
+launch google click on right side menu and select youtube
+
+
+What is soft and hard assert
+
+TestNg assertion are hard assertion as whenever expected does not meet actual then execution stops
+These are strict assertion
+if assertion not true that it will not proceed further
+
+
+For hard assertion concept of Selenium and Assert concept of TestNG both are hard assertion
+
+Assertion a1 = new Assertion();
+
+
+For Soft assertion
+SoftAssert a1 = new SoftAssert();
+
+ When an assertion fails, don't throw an exception but record the failure is soft assertion
+
+
+Soft assert means if assertion fails it will continue the execution
+
+
+
+in project 1 ddt code should be written only once
+
+
+Class 65
+
+Selenium Architecture
+
+Client      Server               Drivers                  Browsers
+Java        Selenium server     chromeDriver.exe          
+
+
+ maven-archetype-quickstart 1.4 version -for creating new maven project
+
+
+shadow dom
+
+copy the js path of of element by right click
+then paste it and return type would be string
+and add return in it
+then use driver.executeScript
+and then cast it into WebElement
+then click on that WebElement
+
+ex-
+
+ChromeDriver driver=new ChromeDriver();
+	driver.get("https://www.airindia.com/");
+	driver.manage().window().maximize();
+	Thread.sleep(2000);
+	WebElement e1=	driver.findElement(By.id("onetrust-accept-btn-handler"));
+	e1.click();
+	
+	String s1="return 	document.querySelector('#ai-booking-widget > ai-tab-group > ai-tab:nth-child(1) > ai-search-flight > slot-fb > div.ai-search-flight-wrapper > div.ai-search-trip > div > div.ai-search-trip-type > ai-radio-group').shadowRoot.querySelector('div > div:nth-child(1) > label')";
+	WebElement e3=		(WebElement) driver.executeScript(s1);
+				e3.click();
+
+
+
+for handling browser pop-ups
+
+options.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
+
+
+
+how to make sure the webpage elements have been loaded completely
+
+
+Rest Assured for API Testing 
+It is used for testing REST API and it is an open source JAVA library
+It is capable of valdating HTTP responses from the server
+The response is given in JSON or XML format which is easy to validate
+It can be easily integrated with other libraries like TestNG
+
+
+URL components
+
+Base URL
+Resource
+Path parameter
+Querry Parameter
+
+
+Http Methods
+CURD operations 
+Post-to create
+Get-to read
+Put or Patch- to update , put - updates all, patch updates partially
+
+BDD
+given ,when and then
+
+given- will give preconditions like baseurl ,header , body/payload
+when- actions like get,post,put,delete
+then-will validate the response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
